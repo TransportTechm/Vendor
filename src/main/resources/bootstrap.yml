@@ -13,15 +13,12 @@ spring:
 #    username: b589eee575a399
 #    password: d525741d
 #    
-#  jpa:
-#    hibernate:
-#      ddl-auto: create
-#    show-sql: true
-#    database: mysql
-#      
-#
-#
-#
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    database: mysql
+
 security:
   basic:
     enabled: false
