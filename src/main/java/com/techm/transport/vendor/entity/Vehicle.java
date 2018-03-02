@@ -25,7 +25,7 @@ public class Vehicle{
 	public int vehicleTypeId;
 	
 	@Column(name="verification_status")
-	@ColumnDefault("pending")  
+	//@ColumnDefault("pending")  
 	private String	verificationStatus;
 	
 	
