@@ -6,3 +6,5 @@ applications:
   path: target/VendorService-0.0.1-SNAPSHOT.jar
   services:
   - VendorServiceDB
+  - ConfigServer-Transport
+  - ServiceRegistry-Transport
